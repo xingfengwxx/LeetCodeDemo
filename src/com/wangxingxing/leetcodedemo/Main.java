@@ -35,7 +35,7 @@ public class Main {
     }
 
     public static void leetcode_2() {
-        System.out.println("从上到下打印二叉树=====================");
+        System.out.println("从上到下按层打印二叉树=====================");
         System.out.println("root = [3,9,20,null,null,15,7]");
 
         PrintBinaryTree printBinaryTree = new PrintBinaryTree();
