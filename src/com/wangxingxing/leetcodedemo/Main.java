@@ -1,9 +1,6 @@
 package com.wangxingxing.leetcodedemo;
 
-import com.wangxingxing.leetcodedemo.tree.BalancedBinaryTree;
-import com.wangxingxing.leetcodedemo.tree.PrintBinaryTree;
-import com.wangxingxing.leetcodedemo.tree.TreeNode;
-import com.wangxingxing.leetcodedemo.tree.Tree_98;
+import com.wangxingxing.leetcodedemo.tree.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,7 +13,8 @@ public class Main {
 //        leetcode_1();
 //        leetcode_2();
 
-        leetcode_98();
+//        leetcode_98();
+        leetcode_144();
     }
 
     public static TreeNode initTreeNodeRoot() {
@@ -57,5 +55,14 @@ public class Main {
         TreeNode right = new TreeNode(4, new TreeNode(3), new TreeNode(6));
         TreeNode treeNode2 = new TreeNode(5, left, right);
         System.out.println("treeNode2 isValidBST: " + tree_98.isValidBST(treeNode2));
+    }
+
+    public static void leetcode_144() {
+        System.out.println("二叉树的前序遍历=====================");
+        Tree_144 tree_144 = new Tree_144();
+
+        System.out.println("root = [1,null,2,3]");
+        TreeNode root = new TreeNode(1, null, new TreeNode(2, new TreeNode(3), null));
+        System.out.println(Arrays.toString(tree_144.preorderTraversal(root).toArray()));
     }
 }
