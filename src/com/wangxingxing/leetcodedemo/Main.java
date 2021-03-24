@@ -14,7 +14,8 @@ public class Main {
 //        leetcode_2();
 
 //        leetcode_98();
-        leetcode_144();
+        leetcode_104();
+//        leetcode_144();
     }
 
     public static TreeNode initTreeNodeRoot() {
@@ -22,6 +23,21 @@ public class Main {
         TreeNode treeNodeRight = new TreeNode(20, new TreeNode(15, null, null), new TreeNode(7, null, null));
         TreeNode treeNodeRoot = new TreeNode(3, treeNodeLeft, treeNodeRight);
         return treeNodeRoot;
+    }
+
+    private static TreeNode initTreeNodeData(){
+        //中序遍历 根结点-左孩子-右孩子遍历顺序
+        //根结点是3
+        TreeNode treeNode=new TreeNode(3);
+        //左孩子是9
+        treeNode.left=new TreeNode(9);
+        //右边孩子是20
+        treeNode.right=new TreeNode(20);
+        //右边孩子的左边是15
+        treeNode.right.left=new TreeNode(15);
+        //右边孩子的右边是7
+        treeNode.right.right=new TreeNode(7);
+        return treeNode;
     }
 
     public static void leetcode_1() {
@@ -55,6 +71,14 @@ public class Main {
         TreeNode right = new TreeNode(4, new TreeNode(3), new TreeNode(6));
         TreeNode treeNode2 = new TreeNode(5, left, right);
         System.out.println("treeNode2 isValidBST: " + tree_98.isValidBST(treeNode2));
+    }
+
+    public static void leetcode_104() {
+        System.out.println("二叉树的最大深度=====================");
+        Tree_104 tree_104 = new Tree_104();
+
+        System.out.println("root = [3,9,20,null,null,15,7]");
+        System.out.println("最大深度：" + tree_104.maxDepth(initTreeNodeRoot()));
     }
 
     public static void leetcode_144() {
