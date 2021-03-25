@@ -15,7 +15,8 @@ public class Main {
 
 //        leetcode_98();
 //        leetcode_104();
-        leetcode_105();
+//        leetcode_105();
+        leetcode_113();
 //        leetcode_144();
     }
 
@@ -92,6 +93,26 @@ public class Main {
         int[] inorder = new int[]{9, 3, 15, 20, 7};
         TreeNode retTreeNode = tree_105.buildTree(preorder, inorder);
         System.out.println("二叉树：" + retTreeNode.toString());
+    }
+
+    public static void leetcode_113() {
+        System.out.println("路径总和 II=====================");
+        Tree_113 tree_113 = new Tree_113();
+
+        TreeNode root = new TreeNode(5);
+        root.left = new TreeNode(4);
+        root.left.left = new TreeNode(11);
+        root.left.left.left = new TreeNode(7);
+        root.left.left.right = new TreeNode(2);
+
+        root.right = new TreeNode(8);
+        root.right.left = new TreeNode(13);
+        root.right.right = new TreeNode(4);
+        root.right.right.left = new TreeNode(5);
+        root.right.right.right = new TreeNode(1);
+
+        System.out.println("输入：root = [5,4,8,11,null,13,4,7,2,null,null,5,1], targetSum = 22");
+        System.out.println("输出：" + Arrays.toString(tree_113.pathSum(root, 22).toArray()));
     }
 
     public static void leetcode_144() {
