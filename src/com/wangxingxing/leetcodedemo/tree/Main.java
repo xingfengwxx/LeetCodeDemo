@@ -1,6 +1,5 @@
-package com.wangxingxing.leetcodedemo;
+package com.wangxingxing.leetcodedemo.tree;
 
-import com.wangxingxing.leetcodedemo.tree.*;
 
 import java.util.Arrays;
 import java.util.List;
@@ -16,8 +15,8 @@ public class Main {
 //        leetcode_98();
 //        leetcode_104();
 //        leetcode_105();
-        leetcode_113();
-//        leetcode_144();
+//        leetcode_113();
+        leetcode_144();
     }
 
     public static TreeNode initTreeNodeRoot() {
