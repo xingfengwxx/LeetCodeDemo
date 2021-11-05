@@ -2,7 +2,7 @@ package com.wangxingxing.leetcodedemo.linkedlist;
 
 /**
  * author : 王星星
- * date : 2021/11/5$ 17:28$
+ * date : 2021/11/5 17:28
  * email : 1099420259@qq.com
  * description : 面试题 02.08. 环路检测
  *

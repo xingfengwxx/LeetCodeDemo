@@ -4,7 +4,7 @@ import com.wangxingxing.leetcodedemo.Utils;
 
 /**
  * author : 王星星
- * date : 2021/11/5$ 15:56$
+ * date : 2021/11/5 15:56
  * email : 1099420259@qq.com
  * description : 206. 反转链表
  * <p>

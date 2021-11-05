@@ -2,7 +2,7 @@ package com.wangxingxing.leetcodedemo.linkedlist;
 
 /**
  * author : 王星星
- * date : 2021/11/5$ 16:26$
+ * date : 2021/11/5 16:26
  * email : 1099420259@qq.com
  * description : 面试题 02.02. 返回倒数第 k 个节点
  *

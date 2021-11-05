@@ -5,7 +5,7 @@ import com.wangxingxing.leetcodedemo.tree.TreeNode;
 
 /**
  * author : 王星星
- * date : 2021/11/5$ 17:14$
+ * date : 2021/11/5 17:14
  * email : 1099420259@qq.com
  * description : 109. 有序链表转换二叉搜索树
  *

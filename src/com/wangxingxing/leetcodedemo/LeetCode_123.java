@@ -2,7 +2,7 @@ package com.wangxingxing.leetcodedemo;
 
 /**
  * author : 王星星
- * date : 2021/11/5$ 15:40$
+ * date : 2021/11/5 15:40
  * email : 1099420259@qq.com
  * description : 123.买卖股票的最佳时机 III
  *
